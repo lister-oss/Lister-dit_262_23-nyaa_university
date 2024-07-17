@@ -1,2 +1,2 @@
-# Lister-dit_262_23-nyaa_university
-University Website
+# Nyaa University
+This is University Website
