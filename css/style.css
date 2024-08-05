@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 1.25rem; /* 20px */
+}
+
+header {
+    background-color: #0000FF; /* Blue color */
+    padding: 0.625rem; /* 10px */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0.8rem; /* 20px */
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: green;
+}
+
+#home img {
+    display: block;
+    margin: 0.07rem auto; /* 20px */
+    max-width: 40%;
+    height: auto;
+}
+
+hr {
+    border: 0;
+    height: 0.0625rem; /* 1px */
+    background-color: orange;
+    margin: 1.25rem 0; /* 20px */
+}

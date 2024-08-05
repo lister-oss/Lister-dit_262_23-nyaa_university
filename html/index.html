@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('section').forEach(section => section.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>This is My University Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li onclick="showSection('home')">Home</li>
+            <li onclick="showSection('about')">About Us</li>
+            <li onclick="showSection('departments')">Departments</li>
+            <li onclick="showSection('contact')">Contact Us</li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="home" style="display: block;">
+        <img src="https://dev.kwust.ac.ke/wp-content/uploads/2023/12/Admin-Block.jpg" alt="Kiriri Women's University Administration Block">
+        <p>Kiriri Women’s University is a leading institution dedicated to academic excellence. Our administration block is the heart of our campus, where students and faculty alike come together to foster a community of learning and growth.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Kiriri Women’s University is a leading institution dedicated to academic excellence.</p>
+    </section>
+    <section id="departments">
+        <h2>Departments</h2>
+        <ol>
+            <li>Computer Science</li>
+            <li>Mathematics</li>
+            <li>Business</li>
+            <li>Education</li>
+            <li>Hospitality</li>
+            <li>Information Technology</li>
+        </ol>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Kiriri Women's University, Nairobi, Kenya</p>
+        <p>Email: info@kiriri.ac.ke</p>
+        <p>Phone: +254 123 456 789</p>
+    </section>
+</body>
+</html>
